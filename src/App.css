@@ -6,71 +6,57 @@
   --bluishgray: hsl(246, 25%, 77%);
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} 
 
 body {
+  background-image: url('./Images/bg-intro-mobile.png');
   background-color: var(--lightred);
   background-repeat: no-repeat;
-  margin: 0px;
+  background-size: cover;
+  font-family: 'Poppins', sans-serif;
+  color: var(--white);
 }
 
 .container {
-    width: 60vw;
-    margin: 10px auto;
-    display: grid;
-    grid-template-columns: 1fr 2fr; 
-    grid-auto-rows: 75px auto;
-    grid-template-areas:
-      "____ sec1"                 
-      "sec2 sec3";
-    grid-column-gap: 280px; 
-    align-content: center;
-    justify-content: center; 
+  padding: 20px;
 }
 
-.sec-1 {
-  grid-area: sec1;
+.sec-2 {
+  margin: 10px auto;
+}
+
+.sec-3 {
+  background-color: var(--white);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px auto;
+
 }
 
 .button1 {
   border-radius: 10px;
   background-color:var(--purple);
-  border: none;
   padding: 15px;
-  color: var(--white);
   font-size: 15px;
   width: 100%;
 }
-
-.sec-2 {
-  grid-area: sec2;
-  font-family: 'Poppins', sans-serif;
-  font-size: 15px;
-  padding: 15px;
-  color: var(--white);
-  font-weight: 300;
-  width: 180%;
-}
-
-.learn {
-  font-size: 45px;
-  font-weight: 700;
-}
-
-.sec-3 {
-  grid-area: sec3;
-  font-family: 'Poppins', sans-serif;
-  background-color: var(--white);
-  border-radius: 10px;
-  padding: 30px 30px; 
+.button1 > a {
+    text-decoration: none;
+  text-align: center;
+  color: white;
 }
 
 input {
   width: 100%;
   border-radius: 5px;
-  padding: 12px 20px;
+  padding: 12px;
+  margin: 10px auto;
   box-sizing: border-box;
   border: 2px solid lightgray;
-
 }
 
 .button2 {
@@ -78,64 +64,41 @@ input {
   background-color: var(--green);
   border: none;
   padding: 14px 40px;
-  color: var(--white);
   font-size: 12px;
   width: 100%;
+  margin-bottom: 10px;
+
 }
 
-.footer {
+.terms {
+  font-size: 12px;
+  color: black;
+}
+
+.terms > a {
+  text-decoration: none;
   color: var(--bluishgray);
-  font-size: 10px;
-  font-weight: 300;
 }
 
-@media (max-width: 760px) {
+/** For Tablet View */
+@media only screen and (min-width: 600px) {
   body {
-      background-image: url('./Images/bg-intro-mobile.png');
-      background-repeat: no-repeat;
-      background-position: top;
-      background-size: auto;
+    background-image: url('./Images/bg-intro-desktop.png');
   }
-
   .container {
-      /* padding: 20px;
-      align-content: center; */
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      align-content: center;
-      height: 100vh;
-      width: 70vw;
-  }
-
-  .sec-1 {
-      order: 2;
-  }
-
-  .learn{
-      font-size: 25px;
-  }
-
-  .sec-2 {
-      width: 100%;
-      align-items: center;
-      text-align: center;
-      order: 1;
-  }
-
-  .sec-3 {
-      order: 3;
-      margin-top: 25px;
-  }
-
-  .see {
-      font-size: 15px;
-  }
-
-  .button1 {
-      margin-top: 60px;
-      padding: 20px;
-      width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px;
   }
 }
 
+/** For Desktop View */
+@media only screen and (min-width: 768px) {
+  .container {
+    padding: 100px;
+  }
+  .sec-2, .sec-3 {
+    margin: 20px;
+  }
+}
