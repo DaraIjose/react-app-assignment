@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/reactappassignment/static/css/main.ec1106be.chunk.css",
+    "main.js": "/reactappassignment/static/js/main.98834459.chunk.js",
+    "main.js.map": "/reactappassignment/static/js/main.98834459.chunk.js.map",
+    "runtime-main.js": "/reactappassignment/static/js/runtime-main.40303626.js",
+    "runtime-main.js.map": "/reactappassignment/static/js/runtime-main.40303626.js.map",
+    "static/js/2.3010f1db.chunk.js": "/reactappassignment/static/js/2.3010f1db.chunk.js",
+    "static/js/2.3010f1db.chunk.js.map": "/reactappassignment/static/js/2.3010f1db.chunk.js.map",
+    "static/js/3.fdfffa07.chunk.js": "/reactappassignment/static/js/3.fdfffa07.chunk.js",
+    "static/js/3.fdfffa07.chunk.js.map": "/reactappassignment/static/js/3.fdfffa07.chunk.js.map",
+    "index.html": "/reactappassignment/index.html",
+    "static/css/main.ec1106be.chunk.css.map": "/reactappassignment/static/css/main.ec1106be.chunk.css.map",
+    "static/js/2.3010f1db.chunk.js.LICENSE.txt": "/reactappassignment/static/js/2.3010f1db.chunk.js.LICENSE.txt",
+    "static/media/bg-intro-desktop.059183ee.png": "/reactappassignment/static/media/bg-intro-desktop.059183ee.png",
+    "static/media/bg-intro-mobile.02ce3982.png": "/reactappassignment/static/media/bg-intro-mobile.02ce3982.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.40303626.js",
+    "static/js/2.3010f1db.chunk.js",
+    "static/css/main.ec1106be.chunk.css",
+    "static/js/main.98834459.chunk.js"
+  ]
+}
