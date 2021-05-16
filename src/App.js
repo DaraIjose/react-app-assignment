@@ -1,5 +1,4 @@
 import background from "./Images/bg-intro-desktop.png";
-import backgroundmobile from "./Images/bg-intro-mobile.png";
 
 import './App.css';
 

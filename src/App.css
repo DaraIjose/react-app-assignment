@@ -91,7 +91,7 @@ input {
 
 @media (max-width: 760px) {
   body {
-      background-image: img src=(backgroundmobile);
+      background-image: url('./Images/bg-intro-mobile.png');
       background-repeat: no-repeat;
       background-position: top;
       background-size: auto;
