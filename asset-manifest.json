@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/react-app-profile-card/static/css/main.ea414ac7.chunk.css",
-    "main.js": "/react-app-profile-card/static/js/main.10c66e17.chunk.js",
-    "main.js.map": "/react-app-profile-card/static/js/main.10c66e17.chunk.js.map",
-    "runtime-main.js": "/react-app-profile-card/static/js/runtime-main.af63dac7.js",
-    "runtime-main.js.map": "/react-app-profile-card/static/js/runtime-main.af63dac7.js.map",
-    "static/js/2.13fa0f8e.chunk.js": "/react-app-profile-card/static/js/2.13fa0f8e.chunk.js",
-    "static/js/2.13fa0f8e.chunk.js.map": "/react-app-profile-card/static/js/2.13fa0f8e.chunk.js.map",
-    "static/js/3.dc670824.chunk.js": "/react-app-profile-card/static/js/3.dc670824.chunk.js",
-    "static/js/3.dc670824.chunk.js.map": "/react-app-profile-card/static/js/3.dc670824.chunk.js.map",
-    "index.html": "/react-app-profile-card/index.html",
-    "static/css/main.ea414ac7.chunk.css.map": "/react-app-profile-card/static/css/main.ea414ac7.chunk.css.map",
-    "static/js/2.13fa0f8e.chunk.js.LICENSE.txt": "/react-app-profile-card/static/js/2.13fa0f8e.chunk.js.LICENSE.txt",
-    "static/media/blackwoman.f79d72c8.png": "/react-app-profile-card/static/media/blackwoman.f79d72c8.png"
+    "main.css": "/MuseumExperience-Group1-NodeJS-FE/static/css/main.9d5b29c0.chunk.css",
+    "main.js": "/MuseumExperience-Group1-NodeJS-FE/static/js/main.522648fe.chunk.js",
+    "main.js.map": "/MuseumExperience-Group1-NodeJS-FE/static/js/main.522648fe.chunk.js.map",
+    "runtime-main.js": "/MuseumExperience-Group1-NodeJS-FE/static/js/runtime-main.ded1bf7f.js",
+    "runtime-main.js.map": "/MuseumExperience-Group1-NodeJS-FE/static/js/runtime-main.ded1bf7f.js.map",
+    "static/js/2.65a8cd49.chunk.js": "/MuseumExperience-Group1-NodeJS-FE/static/js/2.65a8cd49.chunk.js",
+    "static/js/2.65a8cd49.chunk.js.map": "/MuseumExperience-Group1-NodeJS-FE/static/js/2.65a8cd49.chunk.js.map",
+    "static/js/3.33035f7e.chunk.js": "/MuseumExperience-Group1-NodeJS-FE/static/js/3.33035f7e.chunk.js",
+    "static/js/3.33035f7e.chunk.js.map": "/MuseumExperience-Group1-NodeJS-FE/static/js/3.33035f7e.chunk.js.map",
+    "index.html": "/MuseumExperience-Group1-NodeJS-FE/index.html",
+    "static/css/main.9d5b29c0.chunk.css.map": "/MuseumExperience-Group1-NodeJS-FE/static/css/main.9d5b29c0.chunk.css.map",
+    "static/js/2.65a8cd49.chunk.js.LICENSE.txt": "/MuseumExperience-Group1-NodeJS-FE/static/js/2.65a8cd49.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/MuseumExperience-Group1-NodeJS-FE/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.af63dac7.js",
-    "static/js/2.13fa0f8e.chunk.js",
-    "static/css/main.ea414ac7.chunk.css",
-    "static/js/main.10c66e17.chunk.js"
+    "static/js/runtime-main.ded1bf7f.js",
+    "static/js/2.65a8cd49.chunk.js",
+    "static/css/main.9d5b29c0.chunk.css",
+    "static/js/main.522648fe.chunk.js"
   ]
 }
